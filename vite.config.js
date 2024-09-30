@@ -1,23 +1,35 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import { sitemapPlugin } from 'vite-plugin-sitemap';
-import { resolve } from 'path';
+import path from 'path';
+import sitemap from 'vite-plugin-sitemap';
 
 export default defineConfig({
   plugins: [
     react(),
-    sitemapPlugin({
-      hostname: 'https://berrybraintech.com', // Your domain
-      outDir: 'dist',  // Output sitemap in dist
+    sitemap({
+      hostname: 'https://berrybraintech.com', // Your live site URL
+      routes: [
+        '/',
+        '/us',
+        '/service',
+        '/web-development',
+        '/app',
+        '/seo'
+      ],
     }),
   ],
-  build: {
-    outDir: 'dist', // Vercel expects build output in dist
-  },
-  publicDir: 'public', // Serve assets from public folder, like robots.txt
   resolve: {
     alias: {
-      '@': resolve(__dirname, 'src'), // Aliases for cleaner imports
+      '@': path.resolve(__dirname, 'src'),
     },
+  },
+  build: {
+    outDir: 'dist',
+  },
+  server: {
+    port: 3000,
+  },
+  optimizeDeps: {
+    include: ['react-router-dom'],
   },
 });
