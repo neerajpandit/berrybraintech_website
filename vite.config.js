@@ -7,7 +7,6 @@ export default defineConfig({
   plugins: [
     react(),
     sitemap({
-      hostname: 'https://berrybraintech-website.vercel.app',  // Replace with your actual domain
       routes: [
         '/',                    // Home page
         '/us',                  // Us page
