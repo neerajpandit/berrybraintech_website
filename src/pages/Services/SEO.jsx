@@ -7,6 +7,19 @@ import Faq from '../../component/Service/SEO/Faq';
 import Mainfaq from '../../component/Service/SEO/Mainfaq';
 
 const SEO = () => {
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "BerryBrainTech",
+    "alternateName": "verybraintech, berybraintech, berry brain tech, bery brain tech",
+    "url": "https://www.berrybraintech.com",
+    "sameAs": [
+      "https://www.linkedin.com/company/berrybraintech",
+      "https://www.instagram.com/berrybraintech",
+      "https://m.facebook.com/61554289650556/",
+      "https://www.twitter.com/berrybraintech"
+    ]
+  };
   return (
     <div>
       <Helmet>
@@ -26,6 +39,12 @@ const SEO = () => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://berrybraintech.com/seo" />
+
+        {/* Add the JSON-LD schema inside the Helmet */}
+        <script type="application/ld+json">
+          {JSON.stringify(organizationSchema)}
+        </script>
+        
       </Helmet>
 
       <Seo />

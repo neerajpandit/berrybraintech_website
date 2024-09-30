@@ -3,6 +3,19 @@ import { Helmet } from 'react-helmet-async';
 import Services from '../../component/Service/Services';
 
 const Serv = () => {
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "BerryBrainTech",
+    "alternateName": "verybraintech, berybraintech, berry brain tech, bery brain tech",
+    "url": "https://www.berrybraintech.com",
+    "sameAs": [
+      "https://www.linkedin.com/company/berrybraintech",
+      "https://www.instagram.com/berrybraintech",
+      "https://m.facebook.com/61554289650556/",
+      "https://www.twitter.com/berrybraintech"
+    ]
+  };
   return (
     <div className="relative min-h-screen bg-white overflow-hidden">
       <Helmet>
@@ -22,6 +35,10 @@ const Serv = () => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://berrybraintech.com/service" />
+        {/* Add the JSON-LD schema inside the Helmet */}
+        <script type="application/ld+json">
+          {JSON.stringify(organizationSchema)}
+        </script>
       </Helmet>
 
       <div className="z-10 relative">

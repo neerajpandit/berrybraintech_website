@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom"; // Import useNavigate
-
+import logo from '../../../public/bbt.svg'
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -30,11 +30,11 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex justify-between items-center py-4 px-4 md:px-6 lg:px-8">
         {/* Logo */}
+        
         <a
           href="/"
-          className={`text-2xl ${isScrolled ? "hover:text-indigo-600" : "text-white"}`}
-        >
-          BerryBrainTech
+          className={`text-2xl flex  ${isScrolled ? "hover:text-indigo-600" : "text-white "}`}
+        ><img src={logo} alt="BBT" className="w-10 h-10" /><span className="hidden">BerryBrainTech</span>
         </a>
 
         {/* Links for large screens */}
