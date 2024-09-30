@@ -5,7 +5,7 @@ import Work from "../component/Work/Work";
 import Cards from "../component/Work/Cards";
 import Product from "../component/Cards/Product";
 import Step from "../component/Choose/Step";
-import Test from "../component/Testinomial/test";
+import Test from "../component/Testinomial/Test"
 import Contact from "../component/contact/Contact";
 import LiveProject from "../component/Cards/LiveProject";
 
@@ -32,7 +32,7 @@ const Home = () => {
         <Product />
         <Step />
         <LiveProject />
-        <Test />
+        <Test/>
         <Contact />
       </div>
     </div>
