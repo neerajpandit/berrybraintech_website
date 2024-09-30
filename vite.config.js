@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     react(),
     sitemap({
-      hostname: 'https://berrybraintech.com',
+      hostname: 'https://berrybraintech-website.vercel.app',
       robots: [
         {
           userAgent: '*',
