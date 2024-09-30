@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [
     react(),
     sitemap({
+      hostname: 'https://berrybraintech.com',
       routes: [
         '/',                    // Home page
         '/us',                  // Us page
