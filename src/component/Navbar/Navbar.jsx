@@ -34,7 +34,7 @@ const Navbar = () => {
         <a
           href="/"
           className={`text-2xl flex  ${isScrolled ? "hover:text-indigo-600" : "text-white "}`}
-        ><img src={logo} alt="BBT" className="w-10 h-10" /><span className="hidden">BerryBrainTech</span>
+        ><img src={logo} alt="BerryBrainTech" className="w-10 h-10" /><span>BerryBrainTech</span>
         </a>
 
         {/* Links for large screens */}
