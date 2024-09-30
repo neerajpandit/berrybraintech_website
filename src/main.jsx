@@ -15,6 +15,7 @@ import Layout from "./Layout.jsx";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout/>}>
+      <Route path="*" element={<Home/>} />
       <Route path="" element={<Home/>}/>
       <Route path="/us" element={<Us/>}/>
       <Route path="/service" element={<Serv/>}/>
