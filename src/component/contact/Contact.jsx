@@ -72,10 +72,16 @@ const Contact = () => {
                     <h3 className="text-lg font-medium text-gray-900">
                       Our Address
                     </h3>
-                    <p className="mt-1 text-gray-600">
-                      Sco. 52, First Floor, Jlpl,
+                    <p className="mt-1 mb-2 text-gray-600">
+                      Sco. 52, Jlpl,
                       <br />
-                      Sec. 82, Mohali, 140308
+                      Sec. 82, Mohali, Chandigarh 140308
+                    </p>
+                    <hr/>
+                    <p className="mt-2 text-gray-600">
+                      Rampur Nonsila, Mathani
+                      <br />
+                      Maharua, AmbedkarNagar(UP) 224231
                     </p>
                   </div>
                   <div className="border-t border-gray-200">
@@ -152,7 +158,7 @@ const Contact = () => {
                         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
                       </svg>
                     </div>
-                    <a href="#" target="_blank">
+                    <a href="" target="_blank">
                       {/* <h2 class="mt-4 font-dm-sans text-mobile-h3 font-semibold leading-snug sm:text-mobile-h2 md:text-desktop-h2">
                         An
                         <span class="font-bold underline underline-offset-2">
@@ -167,7 +173,7 @@ const Contact = () => {
 
                   <div class="mt-6 flex flex-col items-center justify-center space-y-3">
                   <a
-            href=""
+            href="tel:7905796216"
             className="inline-block px-6 py-2  bg-pink-600 text-white rounded-full"
            
           >

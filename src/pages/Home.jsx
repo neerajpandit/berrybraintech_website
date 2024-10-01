@@ -8,7 +8,7 @@ import Step from "../component/Choose/Step";
 import Test from "../component/Testinomial/Test"
 import Contact from "../component/contact/Contact";
 import LiveProject from "../component/Cards/LiveProject";
-
+import logo from "../assets/bbt.svg"
 const Home = () => {
 
   const organizationSchema = {
@@ -17,6 +17,7 @@ const Home = () => {
     "name": "BerryBrainTech",
     "alternateName": "verybraintech, berybraintech, berry brain tech, bery brain tech, bery braintech, berry braintech",
     "url": "https://www.berrybraintech.com",
+    "logo": `${window.location.origin}${logo}`,
     "sameAs": [
       "https://www.linkedin.com/company/berrybraintech",
       "https://www.instagram.com/berrybraintech",

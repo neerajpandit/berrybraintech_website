@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import Services from '../../component/Service/Services';
-
+import logo from '../../assets/bbt.svg'
 const Serv = () => {
   const organizationSchema = {
     "@context": "https://schema.org",
@@ -9,6 +9,7 @@ const Serv = () => {
     "name": "BerryBrainTech",
     "alternateName": "verybraintech, berybraintech, berry brain tech, bery brain tech, bery braintech, berry braintech",
     "url": "https://www.berrybraintech.com",
+    "logo": `${window.location.origin}${logo}`,
     "sameAs": [
       "https://www.linkedin.com/company/berrybraintech",
       "https://www.instagram.com/berrybraintech",

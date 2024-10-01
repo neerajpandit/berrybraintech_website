@@ -5,6 +5,7 @@ import Chooseus from '../../component/Service/SEO/Chooseus';
 import Stepseo from '../../component/Service/SEO/Stepseo';
 import Faq from '../../component/Service/SEO/Faq';
 import Mainfaq from '../../component/Service/SEO/Mainfaq';
+import logo from '../../assets/bbt.svg'
 
 const SEO = () => {
   const organizationSchema = {
@@ -13,6 +14,7 @@ const SEO = () => {
     "name": "BerryBrainTech",
     "alternateName": "verybraintech, berybraintech, berry brain tech, bery brain tech,bery braintech, berry braintech",
     "url": "https://www.berrybraintech.com",
+    "logo": `${window.location.origin}${logo}`,
     "sameAs": [
       "https://www.linkedin.com/company/berrybraintech",
       "https://www.instagram.com/berrybraintech",

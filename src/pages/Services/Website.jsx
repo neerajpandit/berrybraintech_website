@@ -7,6 +7,7 @@ import Web from "../../component/Service/Website/Web";
 import Tech from "../../component/Service/Website/Tech";
 import Faq from "../../component/Service/Website/Faq";
 import Mainfaq from "../../component/Service/Website/Mainfaq";
+import logo from "../../assets/bbt.svg"
 
 const Website = () => {
 
@@ -16,6 +17,7 @@ const Website = () => {
     "name": "BerryBrainTech",
     "alternateName": "verybraintech, berybraintech, berry brain tech, bery brain tech, bery braintech, berry braintech",
     "url": "https://www.berrybraintech.com",
+    "logo": `${window.location.origin}${logo}`,
     "sameAs": [
       "https://www.linkedin.com/company/berrybraintech",
       "https://www.instagram.com/berrybraintech",

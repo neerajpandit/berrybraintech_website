@@ -137,8 +137,9 @@ const About = () => {
                   title=""
                   class="transition-all duration-200 text-sky-500 dark:text-sky-400 hover:text-sky-600 dark:hover:text-sky-500 hover:underline"
                 >
+                  
                   <a
-                    href="#book-call"
+                    href="tel:7905796216"
                     className="inline-block px-6 py-2 bg-pink-600 text-white rounded-full"
                   >
                     Book a Call
