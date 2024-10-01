@@ -28,7 +28,7 @@ const Home = () => {
   return (
     <div className="relative min-h-screen bg-white overflow-hidden">
       <Helmet>
-        <title>BerryBrainTech - Home | Empower Your Business</title>
+        <title>BerryBrainTech - Software Development Company| Empower Your Business</title>
         <meta
           name="description"
           content="BerryBrainTech provides top-notch services in web development, application development, SEO, UI/UX and digital marketing. Empower your business with our innovative solutions."
