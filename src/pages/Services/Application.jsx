@@ -10,7 +10,7 @@ const Application = () => {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "BerryBrainTech",
-    "alternateName": "verybraintech, berybraintech, berry brain tech, bery brain tech",
+    "alternateName": "verybraintech, berybraintech, berry brain tech, bery brain tech,bery braintech, berry braintech",
     "url": "https://www.berrybraintech.com",
     "sameAs": [
       "https://www.linkedin.com/company/berrybraintech",
@@ -32,6 +32,7 @@ const Application = () => {
           name="keywords"
           content="application development, mobile apps, web apps, app development services, BerryBrainTech, scalable applications"
         />
+        <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Application Development Services" />
         <meta
           property="og:description"

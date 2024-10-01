@@ -7,7 +7,7 @@ const Us = () => {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "BerryBrainTech",
-    "alternateName": "verybraintech, berybraintech, berry brain tech, bery brain tech",
+    "alternateName": "verybraintech, berybraintech, berry brain tech, bery brain tech,bery braintech, berry braintech",
     "url": "https://www.berrybraintech.com",
     "sameAs": [
       "https://www.linkedin.com/company/berrybraintech",
@@ -28,6 +28,7 @@ const Us = () => {
           name="keywords"
           content="About BerryBrainTech, web development, business solutions, application development, digital transformation"
         />
+        <meta name="robots" content="index, follow" />
         <meta property="og:title" content="About Us - BerryBrainTech" />
         <meta
           property="og:description"

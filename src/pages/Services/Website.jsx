@@ -14,7 +14,7 @@ const Website = () => {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "BerryBrainTech",
-    "alternateName": "verybraintech, berybraintech, berry brain tech, bery brain tech",
+    "alternateName": "verybraintech, berybraintech, berry brain tech, bery brain tech, bery braintech, berry braintech",
     "url": "https://www.berrybraintech.com",
     "sameAs": [
       "https://www.linkedin.com/company/berrybraintech",
@@ -31,6 +31,7 @@ const Website = () => {
           name="description"
           content="Get custom web development services with BerryBrainTech. We offer dynamic, responsive websites built to empower your business and boost online presence."
         />
+        <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
           content="website development, custom websites, responsive design, web development services, BerryBrainTech"

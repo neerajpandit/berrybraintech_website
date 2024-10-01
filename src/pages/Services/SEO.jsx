@@ -11,7 +11,7 @@ const SEO = () => {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "BerryBrainTech",
-    "alternateName": "verybraintech, berybraintech, berry brain tech, bery brain tech",
+    "alternateName": "verybraintech, berybraintech, berry brain tech, bery brain tech,bery braintech, berry braintech",
     "url": "https://www.berrybraintech.com",
     "sameAs": [
       "https://www.linkedin.com/company/berrybraintech",
@@ -32,6 +32,7 @@ const SEO = () => {
           name="keywords"
           content="SEO services, search engine optimization, organic traffic, BerryBrainTech, online presence, improve SEO"
         />
+        <meta name="robots" content="index, follow" />
         <meta property="og:title" content="SEO Services - Boost Your Online Presence" />
         <meta
           property="og:description"

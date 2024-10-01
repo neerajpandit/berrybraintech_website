@@ -1,5 +1,6 @@
 import React from "react";
 import tms from "../../assets/tms.png";
+import neerajpic from '../../assets/neerajpic.jpg'
 import sv from "../../assets/sv.png";
 import or from "../../assets/or.png";
 const Team = () => {
@@ -20,13 +21,14 @@ const Team = () => {
               </button>
             </div>
             <div class="w-full lg:w-1/2 lg:mt-0 md:mt-40 mt-16 max-lg:max-w-2xl">
-              <div class="grid grid-cols-1 min-[450px]:grid-cols-2 md:grid-cols-3 gap-8">
+              <div class="grid grid-cols-1 min-[450px]:grid-cols-1 md:grid-cols-1 gap-4">
                 <img
-                  src={tms}
+                  src={neerajpic}
                   alt="Team tailwind section"
                   class="w-44 h-56 rounded-2xl object-cover md:mt-20 mx-auto min-[450px]:mr-0"
                 />
-                <img
+
+                {/* <img
                   src={sv}
                   alt="Team tailwind section"
                   class="w-44 h-56 rounded-2xl object-cover mx-auto min-[450px]:ml-0 md:mx-auto"
@@ -35,7 +37,7 @@ const Team = () => {
                   src={or}
                   alt="Team tailwind section"
                   class="w-44 h-56 rounded-2xl object-cover md:mt-20 mx-auto min-[450px]:mr-0 md:ml-0"
-                />
+                /> */}
 
                 {/* <img
                   src="https://pagedone.io/asset/uploads/1696238702.png"

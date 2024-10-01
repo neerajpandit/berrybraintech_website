@@ -7,7 +7,7 @@ const Serv = () => {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "BerryBrainTech",
-    "alternateName": "verybraintech, berybraintech, berry brain tech, bery brain tech",
+    "alternateName": "verybraintech, berybraintech, berry brain tech, bery brain tech, bery braintech, berry braintech",
     "url": "https://www.berrybraintech.com",
     "sameAs": [
       "https://www.linkedin.com/company/berrybraintech",
@@ -28,6 +28,7 @@ const Serv = () => {
           name="keywords"
           content="services, web development, app development, SEO, digital marketing, BerryBrainTech"
         />
+        <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Our Services - BerryBrainTech" />
         <meta
           property="og:description"
