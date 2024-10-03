@@ -46,23 +46,23 @@ const Web = () => {
                 </h1>
                 <p class="mt-6 text-lg leading-8 text-gray-600">
                   <b>
-                    Berrybraintech - It Solutions is a leading website design
-                    company in India, your gateway to innovative and impactful
-                    website development. In the digital age, your website is
-                    often the first interaction users have with your brand, and
-                    we understand the significance of making it exceptional.
+                    HunCode - It Solutions is a leading website design company
+                    in India, your gateway to innovative and impactful website
+                    development. In the digital age, your website is often the
+                    first interaction users have with your brand, and we
+                    understand the significance of making it exceptional.
                   </b>
                 </p>
                 <p class="mt-2 text-xl font-bold text-blue-900 tracking-tight text-gray-900 sm:text-2xl">
                   We’re a web design company with creative solutions
                 </p>
                 <p class="mt-6 text-lg leading-8 text-gray-600">
-                 Your Digital Potential with Berrybraintech - It
-                  Solutions – Your Premier Website Development Partner.
-                  Stepping into the digital realm or looking to elevate your
-                  online presence? You've landed at the doorstep of India’s best
-                  website development company. Your website is more than just a
-                  digital space; it's your first impression on the world. 
+                  Your Digital Potential with HunCode - It Solutions – Your
+                  Premier Website Development Partner. Stepping into the digital
+                  realm or looking to elevate your online presence? You've
+                  landed at the doorstep of India’s best website development
+                  company. Your website is more than just a digital space; it's
+                  your first impression on the world.
                 </p>
               </div>
             </div>
@@ -76,82 +76,97 @@ const Web = () => {
           </div>
         </div>
       </section>
-    
 
       <div class="bg-white p-4">
-    <h2 class="text-3xl text-center text-white font-bold mb-12">
-        Project Completion Timeline
-    </h2>
-    <div class="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
-       
-        <div class="flex md:contents flex-row-reverse">
+        <h2 class="text-3xl text-center text-white font-bold mb-12">
+          Project Completion Timeline
+        </h2>
+        <div class="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
+          <div class="flex md:contents flex-row-reverse">
             <div class="relative p-4 my-6 text-gray-800 bg-black rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
-                <h3 class="text-lg text-white font-semibold lg:text-xl">Week 1: Project Kickoff</h3>
-                <p class="mt-2 leading-6 text-white">Initial meetings with stakeholders to gather requirements and define project scope.</p>
-                <span class="absolute text-sm text-black font-bold -top-5 left-2 whitespace-nowrap">
-                    Start Date: Day 1
-                </span>
+              <h3 class="text-lg text-white font-semibold lg:text-xl">
+                Week 1: Project Kickoff
+              </h3>
+              <p class="mt-2 leading-6 text-white">
+                Initial meetings with stakeholders to gather requirements and
+                define project scope.
+              </p>
+              <span class="absolute text-sm text-black font-bold -top-5 left-2 whitespace-nowrap">
+                Start Date: Day 1
+              </span>
             </div>
             <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
-                <div class="flex items-center justify-center w-6 h-full">
-                    <div class="w-1 h-full bg-indigo-300 rounded-t-full bg-gradient-to-b from-indigo-400 to-indigo-300"></div>
-                </div>
-                <div class="absolute w-6 h-6 -mt-3 bg-black border-4 border-indigo-400 rounded-full top-1/2"></div>
+              <div class="flex items-center justify-center w-6 h-full">
+                <div class="w-1 h-full bg-indigo-300 rounded-t-full bg-gradient-to-b from-indigo-400 to-indigo-300"></div>
+              </div>
+              <div class="absolute w-6 h-6 -mt-3 bg-black border-4 border-indigo-400 rounded-full top-1/2"></div>
             </div>
-        </div>
+          </div>
 
-   
-        <div class="flex md:contents">
+           <div class="flex md:contents">
             <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
-                <div class="flex items-center justify-center w-6 h-full">
-                    <div class="w-1 h-full bg-indigo-300"></div>
-                </div>
-                <div class="absolute w-6 h-6 -mt-3 bg-black border-4 border-indigo-400 rounded-full top-1/2"></div>
+              <div class="flex items-center justify-center w-6 h-full">
+                <div class="w-1 h-full bg-indigo-300"></div>
+              </div>
+              <div class="absolute w-6 h-6 -mt-3 bg-black border-4 border-indigo-400 rounded-full top-1/2"></div>
             </div>
             <div class="relative p-4 my-6 text-gray-800 bg-black rounded-xl col-start-6 col-end-10 mr-auto">
-                <h3 class="text-lg font-semibold text-white lg:text-xl">Week 2: Design Phase</h3>
-                <p class="mt-2 leading-6 text-white">Create wireframes and prototypes based on the gathered requirements.</p>
-                <span class="absolute text-sm text-black font-bold -top-5 left-2 whitespace-nowrap">
-                    Completion: Day 7
-                </span>
+              <h3 class="text-lg font-semibold text-white lg:text-xl">
+                Week 2: Design Phase
+              </h3>
+              <p class="mt-2 leading-6 text-white">
+                Create wireframes and prototypes based on the gathered
+                requirements.
+              </p>
+              <span class="absolute text-sm text-black font-bold -top-5 left-2 whitespace-nowrap">
+                Completion: Day 7
+              </span>
             </div>
-        </div>
+          </div>
 
-      
-        <div class="flex md:contents flex-row-reverse">
+          <div class="flex md:contents flex-row-reverse">
             <div class="relative p-4 my-6 text-gray-800 bg-black rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
-                <h3 class="text-lg font-semibold text-white lg:text-xl">Week 3: Development</h3>
-                <p class="mt-2 leading-6 text-white">Begin coding and implementing features based on the approved design.</p>
-                <span class="absolute text-black font-bold text-sm  -top-5 left-2 whitespace-nowrap">
-                    Completion: Day 14
-                </span>
+              <h3 class="text-lg font-semibold text-white lg:text-xl">
+                Week 3: Development
+              </h3>
+              <p class="mt-2 leading-6 text-white">
+                Begin coding and implementing features based on the approved
+                design.
+              </p>
+              <span class="absolute text-black font-bold text-sm  -top-5 left-2 whitespace-nowrap">
+                Completion: Day 14
+              </span>
             </div>
             <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
-                <div class="flex items-center justify-center w-6 h-full">
-                    <div class="w-1 h-full bg-indigo-300 rounded-t-full bg-gradient-to-b from-indigo-400 to-indigo-300"></div>
-                </div>
-                <div class="absolute w-6 h-6 -mt-3 bg-black border-4 border-indigo-400 rounded-full top-1/2"></div>
+              <div class="flex items-center justify-center w-6 h-full">
+                <div class="w-1 h-full bg-indigo-300 rounded-t-full bg-gradient-to-b from-indigo-400 to-indigo-300"></div>
+              </div>
+              <div class="absolute w-6 h-6 -mt-3 bg-black border-4 border-indigo-400 rounded-full top-1/2"></div>
             </div>
-        </div>
+          </div>
 
-       
-        <div class="flex md:contents">
+          <div class="flex md:contents">
             <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
-                <div class="flex items-center justify-center w-6 h-full">
-                    <div class="w-1 h-full bg-indigo-300"></div>
-                </div>
-                <div class="absolute w-6 h-6 -mt-3 bg-black border-4 border-indigo-400 rounded-full top-1/2"></div>
+              <div class="flex items-center justify-center w-6 h-full">
+                <div class="w-1 h-full bg-indigo-300"></div>
+              </div>
+              <div class="absolute w-6 h-6 -mt-3 bg-black border-4 border-indigo-400 rounded-full top-1/2"></div>
             </div>
             <div class="relative p-4 my-6 text-gray-800 bg-black rounded-xl col-start-6 col-end-10 mr-auto">
-                <h3 class="text-lg font-semibold text-white lg:text-xl">Week 4: Testing & Launch</h3>
-                <p class="mt-2 leading-6 text-white ">Conduct thorough testing, gather feedback, and finalize the project for launch.</p>
-                <span class="absolute text-sm text-black font-bold  -top-5 left-2 whitespace-nowrap">
-                    Launch Date: Day 30
-                </span>
+              <h3 class="text-lg font-semibold text-white lg:text-xl">
+                Week 4: Testing & Launch
+              </h3>
+              <p class="mt-2 leading-6 text-white ">
+                Conduct thorough testing, gather feedback, and finalize the
+                project for launch.
+              </p>
+              <span class="absolute text-sm text-black font-bold  -top-5 left-2 whitespace-nowrap">
+                Launch Date: Day 30
+              </span>
             </div>
+          </div>
         </div>
-    </div>
-</div>
+      </div>
     </div>
   );
 };

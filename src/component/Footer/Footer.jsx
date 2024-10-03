@@ -1,5 +1,6 @@
 import React from "react";
-import think from '../../assets/think.jpg';
+import think from "../../assets/think.jpg";
+import logo1 from "../../assets/huncodebg.png";
 const Footer = () => {
   return (
     <div>
@@ -9,7 +10,12 @@ const Footer = () => {
             <div class="-mx-4 flex flex-wrap justify-between">
               <div class="px-4 my-4 w-full xl:w-3/5">
                 <a href="/" class="block w-56 text-4xl mb-10">
-                  BerryBrainTech
+                  <img
+                    src={logo1}
+                    alt="HunCode"
+                    className="w-40 lg:w-full h-10 sm:w-20"
+                  />
+                  <span></span>
                 </a>
                 <h1 className="text-8xl text-white">
                   Let’s talk about
@@ -24,129 +30,129 @@ const Footer = () => {
                     Book a Call
                   </a>
 
-                <div className="hidden md:block">
-                <ul className="timeline mt-20  ">
-                    {" "}
-                    <li>
+                  <div className="hidden md:block">
+                    <ul className="timeline mt-20  ">
                       {" "}
-                      <div className="timeline-start timeline-box">
-                        Client Briefing
-                      </div>{" "}
-                      <div className="timeline-middle">
+                      <li>
                         {" "}
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                          className="h-5 w-5"
-                        >
+                        <div className="timeline-start timeline-box">
+                          Client Briefing
+                        </div>{" "}
+                        <div className="timeline-middle">
                           {" "}
-                          <path
-                            fillRule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                            clipRule="evenodd"
-                          />{" "}
-                        </svg>{" "}
-                      </div>{" "}
-                      <hr />{" "}
-                    </li>{" "}
-                    <li>
-                      {" "}
-                      <hr />{" "}
-                      <div className="timeline-middle">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                            className="h-5 w-5"
+                          >
+                            {" "}
+                            <path
+                              fillRule="evenodd"
+                              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                              clipRule="evenodd"
+                            />{" "}
+                          </svg>{" "}
+                        </div>{" "}
+                        <hr />{" "}
+                      </li>{" "}
+                      <li>
                         {" "}
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                          className="h-5 w-5"
-                        >
+                        <hr />{" "}
+                        <div className="timeline-middle">
                           {" "}
-                          <path
-                            fillRule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                            clipRule="evenodd"
-                          />{" "}
-                        </svg>{" "}
-                      </div>{" "}
-                      <div className="timeline-end timeline-box">
-                        Research & Analysis
-                      </div>{" "}
-                      <hr />{" "}
-                    </li>{" "}
-                    <li>
-                      {" "}
-                      <hr />{" "}
-                      <div className="timeline-start timeline-box">
-                        Prototype Development
-                      </div>{" "}
-                      <div className="timeline-middle">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                            className="h-5 w-5"
+                          >
+                            {" "}
+                            <path
+                              fillRule="evenodd"
+                              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                              clipRule="evenodd"
+                            />{" "}
+                          </svg>{" "}
+                        </div>{" "}
+                        <div className="timeline-end timeline-box">
+                          Research & Analysis
+                        </div>{" "}
+                        <hr />{" "}
+                      </li>{" "}
+                      <li>
                         {" "}
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                          className="h-5 w-5"
-                        >
+                        <hr />{" "}
+                        <div className="timeline-start timeline-box">
+                          Prototype Development
+                        </div>{" "}
+                        <div className="timeline-middle">
                           {" "}
-                          <path
-                            fillRule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                            clipRule="evenodd"
-                          />{" "}
-                        </svg>{" "}
-                      </div>{" "}
-                      <hr />{" "}
-                    </li>{" "}
-                    <li>
-                      {" "}
-                      <hr />{" "}
-                      <div className="timeline-middle">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                            className="h-5 w-5"
+                          >
+                            {" "}
+                            <path
+                              fillRule="evenodd"
+                              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                              clipRule="evenodd"
+                            />{" "}
+                          </svg>{" "}
+                        </div>{" "}
+                        <hr />{" "}
+                      </li>{" "}
+                      <li>
                         {" "}
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                          className="h-5 w-5"
-                        >
+                        <hr />{" "}
+                        <div className="timeline-middle">
                           {" "}
-                          <path
-                            fillRule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                            clipRule="evenodd"
-                          />{" "}
-                        </svg>{" "}
-                      </div>{" "}
-                      <div className="timeline-end timeline-box">
-                        User Testing
-                      </div>{" "}
-                      <hr />{" "}
-                    </li>{" "}
-                    <li>
-                      {" "}
-                      <hr />{" "}
-                      <div className="timeline-start timeline-box">
-                        Final Launch
-                      </div>{" "}
-                      <div className="timeline-middle">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                            className="h-5 w-5"
+                          >
+                            {" "}
+                            <path
+                              fillRule="evenodd"
+                              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                              clipRule="evenodd"
+                            />{" "}
+                          </svg>{" "}
+                        </div>{" "}
+                        <div className="timeline-end timeline-box">
+                          User Testing
+                        </div>{" "}
+                        <hr />{" "}
+                      </li>{" "}
+                      <li>
                         {" "}
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                          className="h-5 w-5"
-                        >
+                        <hr />{" "}
+                        <div className="timeline-start timeline-box">
+                          Final Launch
+                        </div>{" "}
+                        <div className="timeline-middle">
                           {" "}
-                          <path
-                            fillRule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                            clipRule="evenodd"
-                          />{" "}
-                        </svg>{" "}
-                      </div>{" "}
-                    </li>{" "}
-                  </ul>
-                </div>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                            className="h-5 w-5"
+                          >
+                            {" "}
+                            <path
+                              fillRule="evenodd"
+                              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                              clipRule="evenodd"
+                            />{" "}
+                          </svg>{" "}
+                        </div>{" "}
+                      </li>{" "}
+                    </ul>
+                  </div>
                 </div>
               </div>
 
@@ -389,7 +395,12 @@ const Footer = () => {
                     fill="#F59E0B"
                   />
                 </svg> */}
-                <h1 className="text-white font-bold">BerryBrainTech</h1>
+                <a
+          href="/"
+          
+        ><img src={logo1} alt="HunCode" className="w-40 lg:w-80 h-10 sm:w-20" /><span></span>
+        </a>
+                {/* <h1 className="text-white font-bold">BerryBrainTech</h1> */}
               </a>
               <div class="flex items-center gap-4">
                 <a
@@ -468,7 +479,7 @@ const Footer = () => {
               <div class="w-full max-lg:mx-auto flex flex-col sm:flex-row max-lg:items-center max-lg:justify-between gap-6 md:gap-12 lg:gap-24">
                 <div class="">
                   <h6 class="text-lg font-medium text-white mb-7 max-lg:text-center">
-                    BerryBrainTech
+                    ~HunCode~
                   </h6>
                   <ul class="flex flex-col max-lg:items-center gap-6">
                     <li>
@@ -599,7 +610,9 @@ const Footer = () => {
                       Building software that enhances your business.
                     </p>
                   </div>
-                  <div className="divider text-white lg:divider-horizontal">OR</div>
+                  <div className="divider text-white lg:divider-horizontal">
+                    OR
+                  </div>
                   <div className="card bg-base-300 rounded-box flex-grow flex flex-col items-center justify-center h-32 lg:h-48 p-4">
                     <h2 className="text-lg font-semibold">Ready Application</h2>
                     <p className="text-sm">

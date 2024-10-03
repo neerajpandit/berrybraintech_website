@@ -14,7 +14,7 @@ const Serv = () => {
                 production workflow.
               </p>
               <p>
-                At BerryBrainyTech, we believe in pushing the boundaries of
+                At HunCode, we believe in pushing the boundaries of
                 technology to deliver exceptional products that resonate with
                 users. Our mission is to empower you in crafting and launching
                 customized, innovative solutions that truly captivate. To bring

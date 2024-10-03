@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom"; // Import useNavigate
 import logo from '../../assets/bbt.svg'
+import logo1 from '../../assets/huncodebg.png'
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -30,11 +31,10 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex justify-between items-center py-4 px-4 md:px-6 lg:px-8">
         {/* Logo */}
-        
         <a
           href="/"
           className={`text-2xl flex  ${isScrolled ? "hover:text-indigo-600" : "text-white "}`}
-        ><img src={logo} alt="BerryBrainTech" className="w-10 h-10" /><span>BerryBrainTech</span>
+        ><img src={logo1} alt="HunCode" className="w-40 lg:w-80 h-10 sm:w-20" /><span></span>
         </a>
 
         {/* Links for large screens */}

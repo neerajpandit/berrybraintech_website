@@ -45,7 +45,7 @@ const Seo = () => {
                 </h1>
                 <p class="mt-6 text-lg leading-8 text-gray-600">
                   <b>
-                    At Berrybraintech, we understand that in today’s competitive
+                    At HunCode, we understand that in today’s competitive
                     digital landscape, effective Search Engine Optimization
                     (SEO) is not just an option—it's a necessity. Our tailored
                     SEO strategies are designed to enhance your online

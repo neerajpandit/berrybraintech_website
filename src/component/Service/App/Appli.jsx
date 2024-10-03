@@ -46,7 +46,7 @@ const Appli = () => {
                 </h1>
                 <p class="mt-6 text-lg leading-8 text-gray-600">
                   <b>
-                    Berrybraintech - we excel in application development,
+                    HunCode- we excel in application development,
                     creating user-friendly and feature-rich apps tailored to
                     your specific needs. Our team combines creativity and
                     technical expertise to deliver solutions that not only
@@ -60,7 +60,7 @@ const Appli = () => {
                   We’re a app design company with creative solutions
                 </p>
                 <p class="mt-6 text-lg leading-8 text-gray-600">
-                  Your Digital Potential with Berrybraintech - It Solutions –
+                  Your Digital Potential with HunCode - It Solutions –
                   Your Premier App Development Partner. Stepping into the
                   digital realm or looking to elevate your online presence?
                   You've landed at the doorstep of India’s best website
